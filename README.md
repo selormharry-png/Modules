@@ -99,19 +99,19 @@ The HTML page includes the `body_note` variable text.
 terraform init
 ```
 
-2. Review the plan:
+   2.Review the plan:
 
 ```bash
 terraform plan
 ```
 
-3. Apply the configuration:
+3.Apply the configuration:
 
 ```bash
 terraform apply
 ```
 
-4. After apply completes, access the website via the ALB DNS name from the output.
+1. After apply completes, access the website via the ALB DNS name from the output.
 
 ## Example Usage
 
