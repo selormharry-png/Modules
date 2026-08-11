@@ -7,7 +7,7 @@ This Terraform module deploys a complete AWS web server cluster using an Applica
 The module provisions the following resources:
 
 - VPC with two public subnets in separate Availability Zones
-- Internet Gateway and public route table
+- Internet Gateway and public route tables
 - Security Group allowing inbound HTTP (80) and SSH (22)
 - Application Load Balancer (ALB)
 - Target Group and HTTP listener for the ALB
